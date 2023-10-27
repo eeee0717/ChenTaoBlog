@@ -3,9 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // 标题（浏览器后缀）
   title: "Chen Tao",
+  titleTemplate:false,
   // 描述
-  description: "Chen Tao Blog",
-  // 语言
   lang: 'zh-CN',
   // 根目录，如果需要部署成htpps://github.com/blog/的形式，则设置/blog/
   base: '/ChenTaoBlog/',
@@ -20,7 +19,7 @@ export default defineConfig({
   // head设置
   head: [
     // 浏览器中图标
-    ["link", {rel: "icon", href: "/logo.ico"}],
+    ["link", {rel: "icon", href: "/ChenTaoBlog/logo.ico"}],
   ],
   // 主题设置
   themeConfig: {

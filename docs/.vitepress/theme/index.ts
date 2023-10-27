@@ -6,4 +6,5 @@ export default {
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
   },
+  
 };
