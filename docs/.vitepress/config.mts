@@ -19,7 +19,7 @@ export default defineConfig({
   // head设置
   head: [
     // 浏览器中图标
-    ["link", { rel: "icon", href: "/ChenTaoBlog/logo.ico" }],
+    ["link", { rel: "icon", href: "/logo.ico" }],
   ],
   // 主题设置
   themeConfig: {
