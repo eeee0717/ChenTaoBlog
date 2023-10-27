@@ -57,7 +57,7 @@ export default defineConfig({
     },
     // 右上角Github链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/eeee0717/eeee0717.github.io' }
+      { icon: 'github', link: 'https://github.com/eeee0717'}
     ],
     // 页脚
     footer: {
