@@ -2,15 +2,15 @@
 layout: home
 
 hero:
-  name: "Chen Tao"
+  name: "Chen Tao's Blog"
   text: "Hello World"
-  tagline: 万变不离其宗
+  tagline: sudo rm -rf
   image:
         src: /logo.png
         alt: Chen Tao
   actions:
     - theme: brand
-      text: 随便看看
+      text: 随便看看  🎉
       link: /aboutme
 
 features:
