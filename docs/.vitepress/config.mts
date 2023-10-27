@@ -7,7 +7,7 @@ export default defineConfig({
   // 描述
   lang: 'zh-CN',
   // 根目录，如果需要部署成htpps://github.com/blog/的形式，则设置/blog/
-  base: '/ChenTaoBlog/',
+  base: '/',
   // 文档最后更新时间展示
   lastUpdated: true,
   // 去除浏览器链接中的.html后缀
