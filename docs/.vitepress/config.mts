@@ -33,7 +33,8 @@ export default defineConfig({
     ],
     // 文章左侧导航栏
     sidebar: [
-      { text: '书籍阅读', collapsed: false, items: sidebarCodeBook() }
+      { text: '书籍阅读', collapsed: false, items: sidebarCodeBook() },
+      { text: '我的demo', collapsed:false, items: sidebarDemo()},
     ],
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {
@@ -115,3 +116,12 @@ function sidebarCodeBook(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
+function sidebarDemo(): DefaultTheme.SidebarItem[] | undefined {
+  return [
+    {
+      text:'minesweeper',
+      link:'/minesweeper'
+    }
+  ]
+}
+
