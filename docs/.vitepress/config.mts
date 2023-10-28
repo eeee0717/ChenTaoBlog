@@ -120,7 +120,7 @@ function sidebarDemo(): DefaultTheme.SidebarItem[] | undefined {
   return [
     {
       text:'minesweeper',
-      link:'/minesweeper/'
+      link:'https://www.chentao0717.me/minesweeper/'
     }
   ]
 }
