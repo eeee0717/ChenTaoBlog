@@ -111,6 +111,20 @@ function sidebarCodeBook(): DefaultTheme.SidebarItem[] {
             { text: '第五章 参数', link: '/CLR/5-参数' },
             { text: '第六章 属性', link: '/CLR/6-属性' },
           ]
+        },
+        {
+          text:"C#学习",
+          collapsed: true,
+          items: [
+            { text: '接口', link: '/CSharp/接口' },
+            { text: '模式匹配', link: '/CSharp/模式匹配' },
+            { text: '委托', link: '/CSharp/委托' },
+            { text: '值类型和引用类型', link: '/CSharp/值类型和引用类型' },
+            { text: 'IEnumerable与IQuerable', link: '/CSharp/IEnumerable与IQueryable' },
+            { text: 'LINQ', link: '/CSharp/LINQ' },
+            { text: 'Nunit单元测试', link: '/CSharp/Nunit单元测试' },
+            { text: 'Record', link: '/CSharp/Record' },
+          ]
         }
       ]
     }
