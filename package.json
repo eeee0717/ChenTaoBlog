@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@vueuse/core": "^10.5.0",
     "gitalk": "^1.8.0",
     "md5": "^2.3.0"
   },

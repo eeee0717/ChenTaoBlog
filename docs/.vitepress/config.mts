@@ -21,6 +21,7 @@ export default defineConfig({
     // 浏览器中图标
     ["link", { rel: "icon", href: "/logo.ico" }],
   ],
+
   // 主题设置
   themeConfig: {
     // 左上角logo
@@ -35,6 +36,7 @@ export default defineConfig({
     sidebar: [
       { text: '书籍阅读', collapsed: false, items: sidebarCodeBook() },
       { text: '我的demo', collapsed:false, items: sidebarDemo()},
+      // { text:'test', link:'/test/test1'}
     ],
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {
