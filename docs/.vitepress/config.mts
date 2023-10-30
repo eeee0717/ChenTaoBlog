@@ -35,8 +35,8 @@ export default defineConfig({
     // 文章左侧导航栏
     sidebar: [
       { text: '书籍阅读', collapsed: false, items: sidebarCodeBook() },
-      { text: '我的demo', collapsed:false, items: sidebarDemo()},
-      // { text:'test', link:'/test/test1'}
+      { text: '我的demo', collapsed: false, items: sidebarDemo() },
+
     ],
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {
@@ -115,7 +115,7 @@ function sidebarCodeBook(): DefaultTheme.SidebarItem[] {
           ]
         },
         {
-          text:"C#学习",
+          text: "C#学习",
           collapsed: true,
           items: [
             { text: '接口', link: '/CSharp/接口' },
@@ -135,8 +135,17 @@ function sidebarCodeBook(): DefaultTheme.SidebarItem[] {
 function sidebarDemo(): DefaultTheme.SidebarItem[] | undefined {
   return [
     {
-      text:'minesweeper',
-      link:'https://www.chentao0717.me/minesweeper/'
+      text: "My Demo",
+      items: [
+        {
+          text: 'minesweeper',
+          link: 'https://www.chentao0717.me/minesweeper/'
+        },
+        {
+          text: 'plum',
+          link: 'https://www.chentao0717.me/plum/'
+        },
+      ]
     }
   ]
 }
