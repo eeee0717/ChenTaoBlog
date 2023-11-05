@@ -85,6 +85,7 @@ function sidebarCodeBook(): DefaultTheme.SidebarItem[] {
             { text: '适配器模式', link: '/设计模式/结构型模式——适配器模式' },
             { text: '组合模式', link: '/设计模式/结构型模式——组合模式' },
             { text: '装饰器模式', link: '/设计模式/结构型模式——装饰器模式' },
+            { text: '外观模式', link: '/设计模式/结构型模式——外观模式' },
           ]
         },
         {
